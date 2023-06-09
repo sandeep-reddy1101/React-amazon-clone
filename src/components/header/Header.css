@@ -1,0 +1,7 @@
+.navbar-links-font-size {
+    font-size: 12px;
+}
+
+.nav-item :hover {
+    border: 2px white;
+}
