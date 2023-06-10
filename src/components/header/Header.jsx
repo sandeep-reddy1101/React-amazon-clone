@@ -26,7 +26,7 @@ const Header = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <div className="d-flex flex-column mx-2">
+          <div className="d-flex flex-column mx-2 lh-1">
             <span className="ps-3 navbar-links-font-size">Hello</span>
             <i className="bi bi-geo-alt pe-2">
               <span className="fw-semibold fst-normal">
@@ -59,7 +59,7 @@ const Header = () => {
             </li>
             <li className="nav-item  mx-2">
               <Link className="nav-link active" aria-current="page" to={"/"}>
-                <div className="d-flex flex-column">
+                <div className="d-flex flex-column lh-1 pt-2">
                   <span className="navbar-links-font-size">Hello, Sign in</span>
                   <span className="fw-semibold">Accounts & List</span>
                 </div>
@@ -67,14 +67,14 @@ const Header = () => {
             </li>
             <li className="nav-item mx-2">
               <Link className="nav-link active" to={"/"}>
-                <div className="d-flex flex-column">
+                <div className="d-flex flex-column lh-1 pt-2">
                   <span className="navbar-links-font-size">Returns</span>
                   <span className="fw-semibold">& Orders</span>
                 </div>
               </Link>
             </li>
             <li className="nav-item mx-2">
-              <Link className="nav-link active" to={"/"}>
+              <Link className="nav-link active" to={"/cart"}>
                 <div>
                   <i className="bi bi-cart3 fs-2 text-warning"></i>
                   <span className="fw-semibold">Cart</span>
