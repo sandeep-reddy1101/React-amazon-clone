@@ -2,6 +2,8 @@ import React from "react";
 import CartProducts from "./Cart-products";
 
 const Cart = () => {
+
+
   const cartProductsList = [
     {
       imgUrl: "/images/product-images-row2-home-page/product1.jpg",

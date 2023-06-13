@@ -1,4 +1,5 @@
 import React from "react";
+import "./Home.css";
 
 const HomeCarousel = () => {
   const imgList = [
@@ -12,8 +13,8 @@ const HomeCarousel = () => {
       <div className="carousel-inner">
         {imgList.map((imgURL, key) => {
           return (
-            <div key={key} className="carousel-item active">
-              <img src={imgURL} className="d-block w-100" alt={key} />
+            <div key={key} className={key === 0 ? "carousel-item active" : "carousel-item"} id="carousel-image">
+              <img src={imgURL} className="d-block home_image" alt={key} />
             </div>
           );
         })}
